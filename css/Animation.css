@@ -1,0 +1,17 @@
+.animation {
+    width: 100%;
+    height: 300px;
+    float: left;
+    margin: 5px;
+    animation: myfirst 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myfirst {
+    from {
+        background: url(../images/angel.png) no-repeat bottom center scroll;
+    }
+    to {
+        background: url(../images/angel-1.png) no-repeat bottom center scroll;
+    }
+}
